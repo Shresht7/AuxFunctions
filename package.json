@@ -1,7 +1,7 @@
 {
   "name": "auxfunctions",
   "version": "1.0.0",
-  "description": "",
+  "description": "A collection of utilities and helpers",
   "main": "index.js",
   "scripts": {
     "dev": "tsc -w",

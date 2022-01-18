@@ -9,3 +9,5 @@ export function timeExecution<T extends Array<any>>(fn: (...args: T) => void, ..
     fn(...args)
     console.timeEnd(label)
 }
+
+//TODO: Add option to specify number of iterations

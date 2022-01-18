@@ -14,4 +14,4 @@
  * @param start Start time (in ms) - default: Date.now()
  * @returns Elapsed time since start (in ms)
  */
-const time = (start: number = Date.now()) => () => (Date.now() - start).toFixed(2)
+export const time = (start: number = Date.now()) => () => (Date.now() - start).toFixed(2)

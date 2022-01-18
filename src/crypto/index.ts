@@ -7,6 +7,8 @@ import { Transform, TransformCallback, TransformOptions } from 'stream'
 const HASH_ALGORITHM = 'sha256'
 const ENCRYPTION_ALGORITHM = 'aes256'
 
+//TODO: Split into separate files
+
 //  GENERATE CIPHER KEY
 //  ===================
 

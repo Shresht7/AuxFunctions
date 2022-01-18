@@ -10,7 +10,7 @@
  * @param fns Variadic array of callback functions to pipe
  * @returns Piped function
  */
-const pipe = (...fns: Function[]) => (...args: any[]) => fns.reduce((acc, currFn) => currFn(...acc), args)
+export const pipe = (...fns: Function[]) => (...args: any[]) => fns.reduce((acc, currFn) => currFn(...acc), args)
 
 /**
  * Composes the given function
@@ -24,4 +24,4 @@ const pipe = (...fns: Function[]) => (...args: any[]) => fns.reduce((acc, currFn
  * @param fns Variadic array of callback functions to compose
  * @returns Composed function
  */
-const compose = (...fns: Function[]) => (...args: any[]) => fns.reduceRight((acc, currFn) => currFn(...acc), args)
+export const compose = (...fns: Function[]) => (...args: any[]) => fns.reduceRight((acc, currFn) => currFn(...acc), args)

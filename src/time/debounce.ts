@@ -23,7 +23,7 @@
  * const debounced = debounce(() => console.log('Hello, World!'), 1000);
  * debounced.invoke(); // Invokes the debounced function immediately.
  */
-function debounce<F extends (...args: any[]) => any>(fn: F, wait: number): DebouncedFn<F> {
+export function debounce<F extends (...args: any[]) => any>(fn: F, wait: number): DebouncedFn<F> {
 
     /** The identifier of the timeout used to delay the function execution. */
     let timeout: NodeJS.Timeout;

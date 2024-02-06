@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "tsc -w",
     "build": "tsc",
-    "test": "npx ts-node tests/index.ts",
-    "clean": "npx rimraf lib"
+    "test": "npx ts-node tests/index.ts"
   },
   "author": "Shresht7",
   "license": "MIT",
